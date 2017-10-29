@@ -92,8 +92,8 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid,"ue11fc7860247c63bd3da149613a793f6"]
-admin=["ue11fc7860247c63bd3da149613a793f6"]
-admsa=["ue11fc7860247c63bd3da149613a793f6"]
+admin=["ub62f32bbed6a9e7c617f9903dbde6f4c"]
+admsa=["ub62f32bbed6a9e7c617f9903dbde6f4c"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -101,7 +101,7 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':"Thanks for adding me\nFollow my instagram; instagram.com/fajrinard",
+    'message':"Thanks for adding me\nFollow my instagram; instagram.com/PredatorVoids",
     "lang":"JP",
     "comment":"Thanks for add me",
     "commentOn":True,
