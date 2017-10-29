@@ -91,7 +91,7 @@ Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
-Bots=[mid,Amid,Bmid,Cmid,"ue11fc7860247c63bd3da149613a793f6"]
+Bots=[mid,Amid,Bmid,Cmid,"ub62f32bbed6a9e7c617f9903dbde6f4c"]
 admin=["ub62f32bbed6a9e7c617f9903dbde6f4c"]
 admsa=["ub62f32bbed6a9e7c617f9903dbde6f4c"]
 wait = {
@@ -192,7 +192,7 @@ def bot(op):
 
         #------Protect Group Kick start------#
         if op.type == 11:
-           if wait["Protectgr"] == True:
+           if wait["Protectgroup"] == True:
                if op.param2 not in Bots:
                    G = ka.getGroup(op.param1)
                    G.preventJoinByTicket = True
@@ -202,7 +202,7 @@ def bot(op):
 
         #------Cancel Invite User start------#
         if op.type == 13:
-           if wait["Protectcancl"] == True:
+           if wait["Protectcancel"] == True:
                if op.param2 not in Bots:
                   group = ka.getGroup(op.param1)
                   gMembMids = [contact.mid for contact in group.invitee]
@@ -829,7 +829,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "ue11fc7860247c63bd3da149613a793f6":
+                if msg.from_ == "ub62f32bbed6a9e7c617f9903dbde6f4c":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
@@ -1027,8 +1027,8 @@ def bot(op):
                 ke.sendMessage(msg)
             elif msg.text in ["Creator","creator"]:
                 msg.contentType = 13
-                cl.sendText(msg.to, "Created By: FajrinArd")
-                msg.contentMetadata = {'mid': 'ue11fc7860247c63bd3da149613a793f6'}
+                cl.sendText(msg.to, "Created By: PredatorVoids")
+                msg.contentMetadata = {'mid': 'ub62f32bbed6a9e7c617f9903dbde6f4c'}
                 cl.sendMessage(msg)
             elif msg.text in ["Me"]:
                 msg.contentType = 13
