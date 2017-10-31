@@ -31,7 +31,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" Ard Squad bot  􀔃􀄆red check mark􏿿
+helpMessage =""" PredatorVoids bot  􀔃􀄆red check mark􏿿
 
 􀔃􀅕red arrow right􏿿 Command Public
 [Me] = Cek akun sendiri
@@ -68,7 +68,7 @@ helpMessage =""" Ard Squad bot  􀔃􀄆red check mark􏿿
 [Nk @] = Kick target user
 [Invite mid] = Invite via mid
 [Kick mid] = Kick via mid
-[Ard Squad join] = Invite semua bot
+[PredatorVoids squad join] = Invite semua bot
 [_namabot join] = Invite bot
 [Bye _namabot] = Leave bot
 """
@@ -1922,7 +1922,7 @@ def bot(op):
 
 #-----------------------------------------------
          #----------------Fungsi Join Group Start-----------------------#
-            elif msg.text in ["Ard Squad join"]:
+            elif msg.text in ["PredatorVoids squad join"]:
               if msg.from_ in admin:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
