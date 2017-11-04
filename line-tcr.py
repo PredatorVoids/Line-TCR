@@ -9,19 +9,19 @@ import time,random,sys,json,codecs,threading,glob,re
 #kk.login(qr=True)
 #kk.loginResult()
 
-cl = LINETCR.LINE(qr=True)
+cl = LINETCR.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
-ki = LINETCR.LINE(qr=True)
+ki = LINETCR.LINE()
 ki.login(qr=True)
 ki.loginResult()
 
-kk = LINETCR.LINE(qr=True)
+kk = LINETCR.LINE()
 kk.login(qr=True)
 kk.loginResult()
 
-kc = LINETCR.LINE(qr=True)
+kc = LINETCR.LINE()
 kc.login(qr=True)
 kc.loginResult()
 
