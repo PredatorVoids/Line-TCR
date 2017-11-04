@@ -10,19 +10,19 @@ import time,random,sys,json,codecs,threading,glob,re
 #kk.loginResult()
 
 cl = LINETCR.LINE()
-cl.login(token="EmV4iJGj94n2Y7ZEZlh1.FDfcwWVAQFPNKGHLXbirKq.A+rMojToLBpnG1dlUDmlU6/Odnyq1VDvdV9uAXYVVaw=")
+cl.login(token="EmxdyTGNSDLmV8HFJ697./anHIPzg7LdwG67AM1QqvW.m6vhsaRuQ4sJPhz7J21u6u2biFpslhesvCgHBhh54Ew=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EmN9i5bn9LUdWpSHN3Ba.fO+3HooEF7AlGhKpf1kzgG.81AOIr15wRqqGpLTFEb5vQ/SVMQAFPvUX2dursUUjKo=")
+ki.login(token="EmapW27Tfsuciu6riTg9.mcxckZJnFc4YMrHfjzE9Mq.gMvuoNPeSsuYXY/1c73yVD5J3nvmQh0k+mKFy/IIlXk=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EmjTCeOkHnoy4roTOyu5.XX7VWdps4YMJ6fIwz2K59q.tmMN1ZG8o2qu2DQgxJIMgqK+r4QkdW8YCpmj9fSCdJQ=")
+kk.login(token="EmKkycHoETQwW2yUxfS7.0K6Gv8E5UfUQBiq9OSD4zW.n9vp9KbMWxtIMDKoWGTt2SdnWlh/t3SWMvkUzYV2drA=")
 kk.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="EmdZwFgexOx4ryzf6D77.A8ldEaJ2hNX/nDYG13PrnW.CMmbsh4cy94H9vgFGpFfFiTTwoqwZfSGWtgmfxBDD4o=")
+kc.login(token="EmEr2bOLhY1u3qnnjCrf.7f9zsG1XTMjmeZamUK17ZW.K3F6xrehGPjszXLonfAr3yGRstNZEHUADUfp7b13QvM=")
 kc.loginResult()
 
 cl
@@ -34,43 +34,43 @@ sys.setdefaultencoding('utf-8')
 helpMessage =""" PredatorVoids bot  􀔃􀄆red check mark􏿿
 
 􀔃􀅕red arrow right􏿿 Command Public
-[Me] = Cek akun sendiri
-[My mid] = Cek akun Mid
-[Bot?] = Cek akun Bot
-[Id Group] = Cek id group
-[Ginfo] = Group info
-[Mid all] = Cek all mid bot
-[Mid 1/2/3/4] = Cek mid bot
-[Get ready] = Cek respon Bot
-[Speedbot] = Cek kecepatan bot
-[Up] = Fungsi spam chat
-[Tagall] = Mention semua user
-[Banlist] = Cek list akun banned
-[Set View] = Cek menu privasi group
-[cek] = Membuat set point
-[sider] = Melihat sider dibawah read point
-[Creator] = Melihat kontak pembuat bot
+[Me]
+[My mid]
+[Bot?]
+[Id Group]
+[Ginfo]
+[Mid all]
+[Mid 1/2/3/4]
+[Get ready]
+[Speedbot]
+[Up]
+[Tagall]
+[Banlist]
+[Set View]
+[cek]
+[sider]
+[Creator]
 
 􀔃􀅕red arrow right􏿿 Command Private
-[Set group] = Menggatur privasi grup
-[Gn namagroup] = Ganti nama group
-[Open url] = Membuka url group
-[Close url] = Menutup url group
-[Cancel] = Cancel user masuk group
-[Staff add @] = Menambah user admin
-[Staff remove @] = Menghapus user dari admin
-[Stafflist] = Melihat daftar admin
-[Ban @] = Ban target with mention
-[Ban] = Ban target with send contact 
-[Unban @] = Unban target with mention
-[Unban] = Unban target with send contact
-[Kill @] = Kick target banned
-[Nk @] = Kick target user
-[Invite mid] = Invite via mid
-[Kick mid] = Kick via mid
-[PredatorVoids squad join] = Invite semua bot
-[_namabot join] = Invite bot
-[Bye _namabot] = Leave bot
+[Set group]
+[Gn namagroup]
+[Open url]
+[Close url]
+[Cancel]
+[Staff add @]
+[Staff remove @]
+[Stafflist]
+[Ban @]
+[Ban]
+[Unban @]
+[Unban]
+[Kill @]
+[Nk @]
+[Invite mid]
+[Kick mid]
+[PredatorVoids squad join]
+[_namabot join]
+[Bye _namabot]
 """
 
 Setgroup =""" Private Menu 􀔃􀄆red check mark􏿿
@@ -109,10 +109,10 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"Ard",
-    "cName2":"Ard 1",
-    "cName3":"Ard 2",
-    "cName4":"Ard 3",
+    "cName":"ㅤㅤㅤㅤ",
+    "cName2":"ㅤㅤㅤㅤ",
+    "cName3":"ㅤㅤㅤㅤ",
+    "cName4":"ㅤㅤㅤㅤ",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
