@@ -9,20 +9,20 @@ import time,random,sys,json,codecs,threading,glob,re
 #kk.login(qr=True)
 #kk.loginResult()
 
-cl = LINETCR.LINE()
-cl.login(token="EmCzEVaXoN1AHapWsTq7./anHIPzg7LdwG67AM1QqvW.F+imQzT4eCet6omEN5vkircyFTVxkU3L3X7Xq2MFi00=")
+cl = LINETCR.LINE(qr=True)
+cl.login(qr=True)
 cl.loginResult()
 
-ki = LINETCR.LINE()
-ki.login(token="Emrxk8A08JWI6TKPYK29.mcxckZJnFc4YMrHfjzE9Mq.hlSctKNG3lm7LvagLJbPq66u1nDB5RfGpKyU4JB1Y5M=")
+ki = LINETCR.LINE(qr=True)
+ki.login(qr=True)
 ki.loginResult()
 
-kk = LINETCR.LINE()
-kk.login(token="EmSVJrcsaQ88YZLMLe77.0K6Gv8E5UfUQBiq9OSD4zW.gCEfG7qoRDi9kM0S41z6W/NFzX/BEiVtjWU/n9VMVLs=")
+kk = LINETCR.LINE(qr=True)
+kk.login(qr=True)
 kk.loginResult()
 
-kc = LINETCR.LINE()
-kc.login(token="EmE78rZI6IJp4mHauY4f.7f9zsG1XTMjmeZamUK17ZW.qgOlaYDI1nSOQgczRGLQDyHcCjQt/ItSxMMtdGpKaPE=")
+kc = LINETCR.LINE(qr=True)
+kc.login(qr=True)
 kc.loginResult()
 
 cl
