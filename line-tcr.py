@@ -71,10 +71,6 @@ helpMessage =""" PredatorVoids bot  􀔃􀄆red check mark􏿿
 [PredatorVoids squad join]
 [_namabot join]
 [Bye _namabot]
-[Bye all]
-[random]
-[albumat]
-[Protectjoin]
 [All gift]
 [Clean Group]
 """
